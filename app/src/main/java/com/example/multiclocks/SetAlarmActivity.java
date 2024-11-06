@@ -31,7 +31,7 @@ public class SetAlarmActivity extends AppCompatActivity {
         Button cancelAlarm = findViewById(R.id.cancelAlarm);
         timePicker = new MaterialTimePicker.Builder().setTimeFormat(TimeFormat.CLOCK_24H)
                 .setHour(12).setMinute(0).setTitleText("Thiết lập thời gian").build();
-        timePicker.show(getSupportFragmentManager(), "alarm");
+        selectTime.setOnClickListener(view -> timePicker.show(getSupportFragmentManager(), "alarm"));
 
         timePicker.addOnPositiveButtonClickListener(v -> selectTime.setText(timePicker.getHour() + ":" + timePicker.getMinute()));
 

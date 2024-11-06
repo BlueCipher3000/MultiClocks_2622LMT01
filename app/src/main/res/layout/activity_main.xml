@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="15dp">
 
@@ -27,7 +27,8 @@
                 android:layout_weight="1"
                 android:text="Giờ thế giới"
                 android:textAlignment="center"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textColor="@color/ranger_green"/>
         </LinearLayout>
 
         <LinearLayout
@@ -49,7 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textColor="@color/ranger_green"/>
         </LinearLayout>
 
         <LinearLayout
@@ -71,7 +73,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textColor="@color/ranger_green"/>
 
         </LinearLayout>
 
@@ -94,7 +97,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textColor="@color/ranger_green"/>
         </LinearLayout>
 
         <LinearLayout
@@ -116,7 +120,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textColor="@color/ranger_green"/>
         </LinearLayout>
 
         <LinearLayout
@@ -137,7 +142,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="34sp" />
+                android:textSize="34sp"
+                android:textColor="@color/ranger_green"/>
         </LinearLayout>
 
         <LinearLayout
